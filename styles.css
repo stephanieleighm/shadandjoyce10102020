@@ -1,0 +1,81 @@
+body {
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 10em;
+  font-weight: 900;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+}
+
+h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0;
+}
+
+li {
+  padding: 0.6em;
+}
+
+.header {
+  padding: 50px;
+  margin: 100px;
+  text-align: center;
+  color: white;
+  border-style: solid;
+}
+
+.input-field {
+  margin: auto;
+  width: 50%;
+}
+
+.welcome-and-data-entry {
+  padding: 50px;
+  background-image: url("images/210.jpg");
+  background-size: cover;
+}
+
+.row {
+  text-align: center;
+  padding: 100px;
+}
+
+.card {
+  padding: 20px 7px;
+}
+
+/* Button */
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color: #f6f6f6;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
